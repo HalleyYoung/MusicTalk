@@ -6,7 +6,7 @@ octave = 5
 
 #some common progressions
 progressions_base_1 = [[1,4,5,1],[1,4,5,6],[1,5,6,4], [1,2,5,1]]
-progressions_base_0 = [[chord - 1 for chord in progression] for progression in progressions_base_1]
+progressions_base_0 = [[root - 1 for root in progression] for progression in progressions_base_1]
 
 score = stream.Score()
 
